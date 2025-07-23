@@ -7,7 +7,7 @@ pipeline {
         EMAIL = "techzeen10@gmail.com"
         PORT = "3000"
     }
-
+ 
     stages {
         stage('Clone Repository') {
             steps {
